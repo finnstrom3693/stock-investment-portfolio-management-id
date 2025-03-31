@@ -1,0 +1,35 @@
+.display-acc{
+    border: 2px solid var(--dark-gray);
+    padding: 5px;
+}
+
+.display-acc2{
+    display: none;
+}
+
+.title-table{
+    display: block;
+}
+
+.title-table2{
+    display: none;
+}
+
+/* Styles for mobile view */
+@media (max-width: 768px) {
+    .display-acc{
+        display: none;
+    }
+    .display-acc2{
+        display: block;
+        border: 2px solid var(--dark-gray);
+        padding: 5px;
+    }
+    .title-table{
+        display: none;
+    }
+    
+    .title-table2{
+        display: block;
+    }
+}

@@ -1,0 +1,14 @@
+.bgnavbar {
+    background-color: var(--success-green);
+}
+
+.navtext {
+    color: var(--light-gray);
+}
+
+@media (max-width: 768px) {
+    .navtext {
+        color: var(--light-gray);
+        font-size: small;
+    }
+}

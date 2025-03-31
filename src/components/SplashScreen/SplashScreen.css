@@ -1,0 +1,13 @@
+/* src/components/SplashScreen.css */
+.splash-screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: var(--success-green); /* Set background color as needed */
+}
+
+.logo {
+  width: 150px; /* Adjust the width of your logo */
+  height: auto;
+}

@@ -1,0 +1,25 @@
+.piecon {
+    width: 600px;
+    height: 600px;
+}
+
+.mobile-pie{
+    display: none;
+}
+
+.dekstop-pie {
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .piecon {
+        width: 100%;
+        height: fit-content;
+    }
+    .mobile-pie{
+        display: block;
+    }
+    .dekstop-pie {
+        display: none;
+    }
+}

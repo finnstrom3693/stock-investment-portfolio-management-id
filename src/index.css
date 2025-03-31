@@ -1,0 +1,20 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+@import '@fortawesome/fontawesome-free/css/all.css';
+
+* {
+  margin: 0;
+}
+
+:root {
+  --primary-blue: #007bff; /* Primary color for buttons, links, etc. */
+  --secondary-blue: #6c757d; /* Secondary color for accents */
+  --dark-gray: #343a40; /* Dark color for text and backgrounds */
+  --light-gray: #f8f9fa; /* Light color for backgrounds */
+  --success-green: #28a745; /* Color for success messages or indicators */
+  --warning-yellow: #ffc107; /* Color for warning messages or indicators */
+  --danger-red: #dc3545; /* Color for danger messages or indicators */
+}
+
+body {
+  background-color: var(--warning-yellow);
+}
